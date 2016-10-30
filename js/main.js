@@ -30,11 +30,11 @@ function validateForm(){
         return false;
     }
     else if (contrasena=='123456'|| contrasena =='098765' || contrasena == 'password'){
-        alert ("Tu contraseña no es segura, vuelve a intentarlo!");
+        alert ("Tu contraseña no es segura, vuelve a intentarlo");
         return false;
     }
 //Validacion de tipos de bicicletas   
-	var tiposBicis = document.getElementById('select').value; 
+	var tiposBicis = document.querySelector('select').value; 
     if (tiposBicis == 0) {
         alert("Elige un tipo de bicicleta!");
         return false;
